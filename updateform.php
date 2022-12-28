@@ -100,9 +100,9 @@ $row=mysqli_fetch_array($data);
         <center>
     <legend > <h3>Update Data</h3></legend>
 <form action="update.php" method="post">
-product ID:<?php echo $row['pid'];?><br>
-Product Name:<input type ="text" name="pname" value="<?php echo $row['pname'];?>"><br><br>
 Product ID:<input type ="text" name="pid" value="<?php echo $row['pid'];?>"><br><br>
+
+Product Name:<input type ="text" name="pname" value="<?php echo $row['pname'];?>"><br><br>
 
 
 
